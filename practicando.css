@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color:darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color:rgb(37, 7, 58);
+    color:white;
+    padding: 25px 30px 25px 30px;
+    text-align: center;
+    border-radius: 50px;
+}
+header h1 {
+    font-size: 50px;
+}
+.clase1 {
+    width: 200px;
+    margin: 0 auto;
+
+}
+section article {
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 3px;
+    padding: 5px 0px;
+    text-align: left;
+}
+
+section article:hover {
+    transition: box-shadow 1s ease ;
+      box-shadow: 7px 5px 10px black;
+      cursor: pointer;
+}
+section article h2, section article p {
+    margin:10px;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding: 20px;
+
+}
+footer section {
+    float:right;
+
+}
+footer p {
+    margin: 0px;
+
+}
+footer a {
+    transition: color 0.5s ease;
+    color:white;
+
+}
+footer a:hover {
+    color:blue;
+}
+h2 {
+    text-align: center;
+    font-size:larger;
+}
